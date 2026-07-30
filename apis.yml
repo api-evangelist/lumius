@@ -1,7 +1,30 @@
 aid: lumius
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lumius.png
 name: Lumius
-description: Lumius is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Lumius is a Y Combinator (Spring 2026) medical-imaging startup building fast,
+  smart, accessible real-time 3D ultrasound systems — described as "a 3D camera
+  for the body." The technology aims to move ultrasound beyond traditional 2D
+  imaging to intelligent, AI-assisted 3D visualization across larger volumes,
+  with an initial focus on vascular access and central-line placement (where
+  roughly half of first attempts fail among new clinicians) and future targets
+  including blood-clot detection, tumor diagnosis, and biopsy guidance. The
+  company partners with academic institutions such as Duke University and
+  Columbia University. Lumius is a hardware/device company with no public API,
+  SDK, or developer platform; its products are pre-market and not intended for
+  medical use. This profile was added to the API Evangelist network as a VC
+  portfolio lead and has been reviewed by the enrichment pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/lumius/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Medical Imaging
+- Ultrasound
+- Healthcare
+- Medical Devices
+- Artificial Intelligence
+- Hardware
+- Y Combinator
 apis: []
+common:
+- type: Website
+  url: https://www.lumius-imaging.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/lumius-imaging/
+- type: Crunchbase
+  url: https://www.ycombinator.com/companies/lumius
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
